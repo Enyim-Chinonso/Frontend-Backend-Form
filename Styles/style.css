@@ -1,0 +1,17 @@
+            
+body {
+ /* background-image: url('Register-image.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center; */
+
+    background: url('../Images/Register-image.jpg') no-repeat center cover fixed;
+}
+
+
+.toggle-password {
+  cursor: pointer;
+  font-size: 18px;
+  color: #555;
+}

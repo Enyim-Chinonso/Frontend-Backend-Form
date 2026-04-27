@@ -37,3 +37,17 @@ if (password !== confirmPassword) {
     message.innerHTML = `<span class="text-danger">Server error</span>`;
   }
 });
+
+
+// Password toggle
+ function togglePassword(inputId, icon) {
+  const input = document.getElementById(inputId);
+
+  if (input.type === "password") {
+    input.type = "text";
+    icon.textContent = "👁️"; // change icon
+  } else {
+    input.type = "password";
+    icon.textContent = "👁️";
+  }
+}
